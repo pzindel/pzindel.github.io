@@ -1,0 +1,14 @@
+.octicon {
+	display: inline-block;
+	overflow: visible!important;
+	vertical-align: text-bottom;
+	fill: currentColor;
+}
+
+.email-btn {
+	background-color: inherit;
+}
+
+.email-btn:hover {
+	background-color: #4e4e4e;
+}
