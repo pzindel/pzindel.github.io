@@ -198,12 +198,24 @@
 									<h3>Airtable Scraping Tool &mdash; Python Script</h3>
 									<div class="row">
 										<div class="column-display">
-											<p>description</p>
+											<p><a href="https://www.airtable.com/universe">Airtable</a> is a database-spreadsheet hybrid platform with some great features including the ability to easily share
+											spreadsheets online.</p>
+											<p>I recently came across a useful public Airtable spreadsheet that unfortunately had its download and cell copying features 
+											turned off. For my work, I needed a local copy of the sheet that I could edit and modify, however, given the amount of data present, 
+											manually copying the data wasn't an option.</p>
 										</div>
 										<div class="column-display">
 											<img src="projects/airtable-scraping-tool/img/airtable-example.png" />
+											<p class="download-zip">
+												<a class="download-zip-link" href="https://github.com/pzindel/airtable-scraping-tool/archive/refs/heads/main.zip">
+												<svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file-zip mr-2">
+												<path fill-rule="evenodd" d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z"></path>
+												</svg> Download ZIP</a>
+											</p>
 										</div>
 									</div>
+										<p>As a result, I created the Airtable Scraping Tool using Python and Selenium to automate the process of scraping the data for each 
+										entry and saving it to a CSV file for later processing.</p>
 									<div class="wy-table-responsive">
 										<table border="1" class="docutils">
 											<colgroup>
@@ -228,12 +240,28 @@
 									<h3>Filer.net Automated Downloader Tool &mdash; Python Script</h3>
 									<div class="row">
 										<div class="column-display">
-											<p>description</p>
+											<p><a href="https://filer.net/">Filer.net</a> is a file hosting site that lets users store files and folders in the cloud, share 
+											the files with others, and password lock for private sharing. As I was downloading hundreds of files across dozens of folders off 
+											of Filer, I created the Filer.net Automated Downloader Tool to make the process easier. </p>
+											<p>Providing the Python program with a list of source folder on Filer.net, the tool uses simple URL requests 
+											and data cleaning techniques to create a CSV record of all of the files to be downloaded as well as the URL link to download them. 
+											The program then uses Selenium to access the user's web browser and download all of the recorded files and skipping those that have 
+											already been downloaded.</p>
 										</div>
 										<div class="column-display">
 											<img src="projects/filer-automated-downloader-tool/img/filer-net-example.png" />
+											<p class="download-zip">
+												<a class="download-zip-link" href="https://github.com/pzindel/filer-automated-downloader-tool/archive/refs/heads/main.zip">
+												<svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file-zip mr-2">
+												<path fill-rule="evenodd" d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z"></path>
+												</svg> Download ZIP</a>
+											</p>
 										</div>
 									</div>
+										<p>The program utilizes configuration files and command-line arguments to modify its running conditions such as the download folder, 
+										CSV records, and skipping the URL scraping process.</p>
+										<p>For the program to work correctly, the <b>user is required to have a Filer.net account with a premium package enabled</b> that allows
+										downloading multiple files at once.</p>
 									<div class="wy-table-responsive">
 										<table border="1" class="docutils">
 											<colgroup>

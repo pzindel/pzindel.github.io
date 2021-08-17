@@ -20,11 +20,19 @@
 	border-radius: 10px;
 }
 
-.recent-project-tile img {
-	opacity: 0.5;
+.recent-project-tile img,
+.recent-project-tile h3,
+.recent-project-tile p,
+.recent-project-tile ul,
+.recent-project-tile tbody {
+	opacity: 0.6;
 }
 
-.recent-project-tile:hover img{
+.recent-project-tile:hover img,
+.recent-project-tile:hover h3,
+.recent-project-tile:hover p,
+.recent-project-tile:hover ul,
+.recent-project-tile:hover tbody {
 	opacity: 1;
 }
 
@@ -46,10 +54,11 @@
 	padding: 10px;
 }
 
-.column-display img {
+.column-display img,
+.column-display .download-zip {
 	display: block;
 	margin-left: auto;
-	margin-right:auto
+	margin-right: auto
 }
 
 table.docutils.tile-table {
