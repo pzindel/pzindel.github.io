@@ -12,3 +12,50 @@
 .email-btn:hover {
 	background-color: #4e4e4e;
 }
+
+.recent-project-tile {
+	padding: 5% 5% 2% 5%;
+	margin: 5% 0% 5% 0%;
+	background-color: #E8EAE9;
+	border-radius: 10px;
+}
+
+.recent-project-tile img {
+	opacity: 0.5;
+}
+
+.recent-project-tile:hover img{
+	opacity: 1;
+}
+
+.recent-project-tile:hover {
+	padding: 5% 5% 2% 5%;
+	margin: 5% 0% 5% 0%;
+	background-color: #2980B940;
+	border-radius: 10px;
+}
+
+.multi-column {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.column-display {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.column-display img {
+	display: block;
+	margin-left: auto;
+	margin-right:auto
+}
+
+table.docutils.tile-table {
+	border-color: white;
+}
+
+#code-package-name {
+	color: green;
+}
